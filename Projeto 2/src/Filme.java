@@ -6,4 +6,8 @@ public class Filme {
     double avalicao;
     int totalAvaliacao;
     int duracaoMinutos;
+
+    void exibeFichaTecnica(){
+        System.out.println();
+    }
 }
