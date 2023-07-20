@@ -5,6 +5,11 @@ public class Main {
         meuFilme.anoLancamento = 2017;
         meuFilme.duracaoMinutos = 24;
 
-      // System.out.println(meuFilme.nome);
+        meuFilme.exibeFichaTecnica();
+        meuFilme.avaliacao(8);
+        meuFilme.avaliacao(10);
+        meuFilme.avaliacao(6);
+        System.out.println(meuFilme.somaAvaliacoes);
+        System.out.println(meuFilme.totalAvaliacao);
     }
 }
