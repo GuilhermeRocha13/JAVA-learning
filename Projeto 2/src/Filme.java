@@ -7,7 +7,7 @@ public class Filme {
     private int totalAvaliacao;
     int duracaoMinutos;
     int getTotalAvaliacao(){
-        
+        return totalAvaliacao;
     }
 
     void exibeFichaTecnica(){

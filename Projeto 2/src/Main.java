@@ -10,7 +10,7 @@ public class Main {
         meuFilme.avaliacao(10);
         meuFilme.avaliacao(6);
 
-        System.out.println(meuFilme.totalAvaliacao);
+        System.out.println("Total avaliações: " + meuFilme.getTotalAvaliacao());
         System.out.println(meuFilme.pegaMedia());
     }
 }
