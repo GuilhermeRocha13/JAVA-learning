@@ -12,6 +12,10 @@ public class Filme {
         return totalAvaliacao;
     }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
     public void exibeFichaTecnica(){
         System.out.println("Nome do filme:" + nome);
         System.out.println("Ano de lançamento:" + anoLancamento);
