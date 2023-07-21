@@ -9,7 +9,7 @@ public class Main {
         meuFilme.avaliacao(8);
         meuFilme.avaliacao(10);
         meuFilme.avaliacao(6);
-        System.out.println(meuFilme.somaAvaliacoes);
+
         System.out.println(meuFilme.totalAvaliacao);
         System.out.println(meuFilme.pegaMedia());
     }
