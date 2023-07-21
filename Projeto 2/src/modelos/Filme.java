@@ -1,5 +1,5 @@
 package modelos;
-
+import java.time.LocalDate;
 public class Filme {
 
    public String nome;
@@ -17,7 +17,14 @@ public class Filme {
     }
 
     public void setAnoLancamento(int anoLancamento) {
-        this.anoLancamento = anoLancamento;
+        LocalDate dataAtual = LocalDate.now();
+        int anoAtual = dataAtual.getYear();
+        if(anoLancamento<anoAtual) {
+            this.anoLancamento = anoLancamento;
+        }
+        else{
+            this.anoLancamento = 6;
+        }
     }
 
     public void setDuracaoMinutos(int duracaoMinutos) {

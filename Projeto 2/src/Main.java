@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Filme meuFilme = new Filme();
         meuFilme.setNome("Jujutsu");
-        meuFilme.setAnoLancamento(2017);
+        meuFilme.setAnoLancamento(2100);
         meuFilme.setDuracaoMinutos(24);
 
         meuFilme.exibeFichaTecnica();
