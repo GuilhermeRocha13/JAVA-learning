@@ -18,14 +18,7 @@ public class Titulo {
     }
 
     public void setAnoLancamento(int anoLancamento) {
-        LocalDate dataAtual = LocalDate.now();
-        int anoAtual = dataAtual.getYear();
-        if(anoLancamento<anoAtual) {
             this.anoLancamento = anoLancamento;
-        }
-        else{
-            this.anoLancamento = 6;
-        }
     }
 
     public void setDuracaoMinutos(int duracaoMinutos) {
