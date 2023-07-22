@@ -2,7 +2,7 @@ package modelos;
 import java.time.LocalDate;
 public class Filme {
 
-   public String nome;
+    public String nome;
     int anoLancamento;
     boolean incluidoPlano;
     private double somaAvaliacoes;
