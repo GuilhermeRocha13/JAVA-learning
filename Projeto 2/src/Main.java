@@ -1,4 +1,5 @@
 import modelos.Filme;
+import modelos.Serie;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,5 +15,11 @@ public class Main {
 
         System.out.println("Total avaliações: " + meuFilme.getTotalAvaliacao());
         System.out.println(meuFilme.pegaMedia());
+
+        Serie breakingBad = new Serie();
+        breakingBad.setEpisodiosPorTemporadas(6);
+        breakingBad.setTemporadas(5);
+        breakingBad.setMinutosPorEpisodio(50);
+        System.out.println("minutos"+breakingBad.getDuracaoMinutos());
     }
 }
