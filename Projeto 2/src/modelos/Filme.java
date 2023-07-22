@@ -1,7 +1,6 @@
 package modelos;
 import java.time.LocalDate;
 public class Filme {
-
     public String nome;
     int anoLancamento;
     boolean incluidoPlano;
