@@ -1,6 +1,8 @@
 package modelos;
 import java.time.LocalDate;
 public class Filme extends Titulo {
+    //calculo para converter horas + minuto para minutos
+    //(hora * 60) + minutos
     private String diretor;
 
     public String getDiretor() {
