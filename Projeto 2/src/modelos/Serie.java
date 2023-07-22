@@ -1,4 +1,6 @@
 package modelos;
 
-public class Serie {
+public class Serie extends Titulo {
+
+    
 }
