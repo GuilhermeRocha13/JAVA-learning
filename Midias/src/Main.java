@@ -3,18 +3,18 @@ import modelos.Serie;
 
 public class Main {
     public static void main(String[] args) {
-        Filme meuFilme = new Filme();
-        meuFilme.setNome("Jujutsu");
-        meuFilme.setAnoLancamento(2100);
-        meuFilme.setDuracaoMinutos(24);
+        Filme transformers = new Filme();
+        transformers.setNome("Transformers");
+        transformers.setAnoLancamento(2007);
+        transformers.setDuracaoMinutos(144);
 
-        meuFilme.exibeFichaTecnica();
-        meuFilme.avaliacao(8);
-        meuFilme.avaliacao(10);
-        meuFilme.avaliacao(6);
+        transformers.exibeFichaTecnica();
+        transformers.avaliacao(8);
+        transformers.avaliacao(10);
+        transformers.avaliacao(6);
 
-        System.out.println("Total avaliações: " + meuFilme.getTotalAvaliacao());
-        System.out.println(meuFilme.pegaMedia());
+        System.out.println("Total avaliações: " + transformers.getTotalAvaliacao());
+        System.out.println(transformers.pegaMedia());
 
         Serie breakingBad = new Serie();
         breakingBad.setEpisodiosPorTemporadas(6);
