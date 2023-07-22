@@ -39,16 +39,8 @@ public class Titulo {
         return somaAvaliacoes;
     }
 
-    public void setSomaAvaliacoes(double somaAvaliacoes) {
-        this.somaAvaliacoes = somaAvaliacoes;
-    }
-
     public int getTotalAvaliacao() {
         return totalAvaliacao;
-    }
-
-    public void setTotalAvaliacao(int totalAvaliacao) {
-        this.totalAvaliacao = totalAvaliacao;
     }
 
     public int getDuracaoMinutos() {

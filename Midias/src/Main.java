@@ -1,3 +1,4 @@
+import modelos.Anime;
 import modelos.Filme;
 import modelos.Serie;
 
@@ -15,11 +16,25 @@ public class Main {
         transformers.avaliacao(6);
 
         transformers.exibeAvaliacoes();
-
+//
 //        Serie breakingBad = new Serie();
 //        breakingBad.setEpisodiosPorTemporadas(6);
 //        breakingBad.setTemporadas(5);
 //        breakingBad.setMinutosPorEpisodio(50);
-//        System.out.println("minutos"+breakingBad.getDuracaoMinutos());
+//        System.out.println("Minutos"+breakingBad.getDuracaoMinutos());
+//
+        Anime jujutsu = new Anime();
+        jujutsu.setNome("Jujutsu Kaisen");
+        jujutsu.setAnoLancamento(2017);
+        jujutsu.setMinutosPorEpisodio(24);
+        jujutsu.setEpisodiosPorTemporadas(24);
+        jujutsu.setTemporadas(2);
+        jujutsu.exibeFichaTecnica();
+
+        jujutsu.avaliacao(5);
+        jujutsu.avaliacao(10);
+        jujutsu.avaliacao(9);
+        jujutsu.exibeAvaliacoes();
+
     }
 }
