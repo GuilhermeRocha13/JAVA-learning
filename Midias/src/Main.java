@@ -9,9 +9,12 @@ public class Main {
         transformers.setDuracaoMinutos(144);
 
         transformers.exibeFichaTecnica();
+
         transformers.avaliacao(8);
         transformers.avaliacao(10);
         transformers.avaliacao(6);
+
+        transformers.exibeAvaliacoes();
 
 //        Serie breakingBad = new Serie();
 //        breakingBad.setEpisodiosPorTemporadas(6);

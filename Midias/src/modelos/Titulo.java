@@ -61,11 +61,14 @@ public class Titulo {
 
     //metodos da classe
     public void exibeFichaTecnica(){
-        System.out.println("Nome do filme:" + getNome());
-        System.out.println("Ano de lançamento:" + getAnoLancamento());
-        System.out.println("Duração em minutos" + getDuracaoMinutos());
-        System.out.println("Total de avaliações" + getTotalAvaliacao());
-        System.out.println("Soma das avaliações" + getSomaAvaliacoes());
+        System.out.println("Nome do filme: " + getNome());
+        System.out.println("Ano de lançamento: " + getAnoLancamento());
+        System.out.println("Duração em minutos " + getDuracaoMinutos());
+    }
+
+    public void exibeAvaliacoes(){
+        System.out.println("Total de avaliações: " + getTotalAvaliacao());
+        System.out.println("Soma das avaliações: " + getSomaAvaliacoes());
     }
 
     public void avaliacao(double nota){
