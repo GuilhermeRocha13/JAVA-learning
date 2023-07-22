@@ -13,13 +13,10 @@ public class Main {
         transformers.avaliacao(10);
         transformers.avaliacao(6);
 
-        System.out.println("Total avaliações: " + transformers.getTotalAvaliacao());
-        System.out.println(transformers.pegaMedia());
-
-        Serie breakingBad = new Serie();
-        breakingBad.setEpisodiosPorTemporadas(6);
-        breakingBad.setTemporadas(5);
-        breakingBad.setMinutosPorEpisodio(50);
-        System.out.println("minutos"+breakingBad.getDuracaoMinutos());
+//        Serie breakingBad = new Serie();
+//        breakingBad.setEpisodiosPorTemporadas(6);
+//        breakingBad.setTemporadas(5);
+//        breakingBad.setMinutosPorEpisodio(50);
+//        System.out.println("minutos"+breakingBad.getDuracaoMinutos());
     }
 }

@@ -3,35 +3,69 @@ package modelos;
 import java.time.LocalDate;
 
 public class Titulo {
-    public String nome;
-    int anoLancamento;
-    boolean incluidoPlano;
+    private String nome;
+    private int anoLancamento;
+    private boolean incluidoPlano;
     private double somaAvaliacoes;
     private int totalAvaliacao;
     private int duracaoMinutos;
-    public int getTotalAvaliacao(){
-        return totalAvaliacao;
+
+    //Getters e setters
+    public String getNome() {
+        return nome;
     }
 
     public void setNome(String nome) {
         this.nome = nome;
     }
 
-    public void setAnoLancamento(int anoLancamento) {
-            this.anoLancamento = anoLancamento;
+    public int getAnoLancamento() {
+        return anoLancamento;
     }
 
-    public void setDuracaoMinutos(int duracaoMinutos) {
-        this.duracaoMinutos = duracaoMinutos;
+    public void setAnoLancamento(int anoLancamento) {
+        this.anoLancamento = anoLancamento;
+    }
+
+    public boolean isIncluidoPlano() {
+        return incluidoPlano;
+    }
+
+    public void setIncluidoPlano(boolean incluidoPlano) {
+        this.incluidoPlano = incluidoPlano;
+    }
+
+    public double getSomaAvaliacoes() {
+        return somaAvaliacoes;
+    }
+
+    public void setSomaAvaliacoes(double somaAvaliacoes) {
+        this.somaAvaliacoes = somaAvaliacoes;
+    }
+
+    public int getTotalAvaliacao() {
+        return totalAvaliacao;
+    }
+
+    public void setTotalAvaliacao(int totalAvaliacao) {
+        this.totalAvaliacao = totalAvaliacao;
     }
 
     public int getDuracaoMinutos() {
         return duracaoMinutos;
     }
 
+    public void setDuracaoMinutos(int duracaoMinutos) {
+        this.duracaoMinutos = duracaoMinutos;
+    }
+
+    //metodos da classe
     public void exibeFichaTecnica(){
-        System.out.println("Nome do filme:" + nome);
-        System.out.println("Ano de lançamento:" + anoLancamento);
+        System.out.println("Nome do filme:" + getNome());
+        System.out.println("Ano de lançamento:" + getAnoLancamento());
+        System.out.println("Duração em minutos" + getDuracaoMinutos());
+        System.out.println("Total de avaliações" + getTotalAvaliacao());
+        System.out.println("Soma das avaliações" + getSomaAvaliacoes());
     }
 
     public void avaliacao(double nota){
