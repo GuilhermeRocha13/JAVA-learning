@@ -1,2 +1,4 @@
-package projeto.calculo;public class CalculadoraDeTempo {
+package projeto.calculo;
+
+public class CalculadoraDeTempo {
 }
