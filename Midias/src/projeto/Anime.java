@@ -1,4 +1,4 @@
-package modelos;
+package projeto;
 
 public class Anime extends Serie{
 }

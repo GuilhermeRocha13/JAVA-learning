@@ -1,6 +1,4 @@
-package modelos;
-
-import java.time.LocalDate;
+package projeto;
 
 public class Titulo {
     private String nome;

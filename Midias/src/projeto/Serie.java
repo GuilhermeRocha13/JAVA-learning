@@ -1,4 +1,4 @@
-package modelos;
+package projeto;
 
 public class Serie extends Titulo {
     private int temporadas;

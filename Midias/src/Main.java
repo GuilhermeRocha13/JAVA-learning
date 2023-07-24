@@ -1,6 +1,5 @@
-import modelos.Anime;
-import modelos.Filme;
-import modelos.Serie;
+import projeto.Anime;
+import projeto.Filme;
 
 public class Main {
     public static void main(String[] args) {
