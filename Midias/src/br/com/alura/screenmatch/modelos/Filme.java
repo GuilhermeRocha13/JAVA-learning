@@ -1,4 +1,4 @@
-package projeto;
+package projeto.modelo;
 
 public class Filme extends Titulo {
     //calculo para converter horas + minuto para minutos
