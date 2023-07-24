@@ -1,4 +1,5 @@
-package projeto.modelo;
+package br.com.alura.screenmatch.modelos;
+
 
 public class Titulo {
     private String nome;

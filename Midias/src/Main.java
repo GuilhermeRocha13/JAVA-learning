@@ -1,5 +1,7 @@
-import projeto.modelo.Anime;
-import projeto.modelo.Filme;
+import br.com.alura.screenmatch.modelos.Titulo;
+import br.com.alura.screenmatch.modelos.Filme;
+import br.com.alura.screenmatch.modelos.Anime;
+import br.com.alura.screenmatch.modelos.Serie;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,13 +17,13 @@ public class Main {
         transformers.avaliacao(6);
 
         transformers.exibeAvaliacoes();
-//
-//        Serie breakingBad = new Serie();
-//        breakingBad.setEpisodiosPorTemporadas(6);
-//        breakingBad.setTemporadas(5);
-//        breakingBad.setMinutosPorEpisodio(50);
-//        System.out.println("Minutos"+breakingBad.getDuracaoMinutos());
-//
+
+        Serie breakingBad = new Serie();
+        breakingBad.setEpisodiosPorTemporadas(6);
+        breakingBad.setTemporadas(5);
+        breakingBad.setMinutosPorEpisodio(50);
+        System.out.println("Minutos"+breakingBad.getDuracaoMinutos());
+
         Anime jujutsu = new Anime();
         jujutsu.setNome("Jujutsu Kaisen");
         jujutsu.setAnoLancamento(2017);

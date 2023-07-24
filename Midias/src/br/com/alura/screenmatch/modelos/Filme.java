@@ -1,4 +1,4 @@
-package projeto.modelo;
+package br.com.alura.screenmatch.modelos;
 
 public class Filme extends Titulo {
     //calculo para converter horas + minuto para minutos
