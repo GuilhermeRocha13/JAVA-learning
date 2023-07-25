@@ -26,13 +26,7 @@ public class Titulo {
         this.anoLancamento = anoLancamento;
     }
 
-    public boolean isIncluidoPlano() {
-        return incluidoPlano;
-    }
 
-    public void setIncluidoPlano(boolean incluidoPlano) {
-        this.incluidoPlano = incluidoPlano;
-    }
 
     public double getSomaAvaliacoes() {
         return somaAvaliacoes;
