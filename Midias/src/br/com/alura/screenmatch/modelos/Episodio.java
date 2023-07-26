@@ -2,7 +2,7 @@ package br.com.alura.screenmatch.modelos;
 
 import br.com.alura.screenmatch.calculos.Classificavel;
 
-public class Episodio implements Classificavel {
+public class Episodio extends Serie implements Classificavel {
     private int numero;
     private String nome;
     private Serie serie;
@@ -33,6 +33,6 @@ public class Episodio implements Classificavel {
 
     @Override
     public int getClassificacao() {
-        return  ;
+        return (int) pegaMedia()/2 ;
     }
 }
