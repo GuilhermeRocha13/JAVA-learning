@@ -6,6 +6,7 @@ public class Episodio extends Serie implements Classificavel {
     private int numero;
     private String nome;
     private Serie serie;
+    private int totalVisualizacoes;
 
     public int getNumero() {
         return numero;
@@ -33,6 +34,11 @@ public class Episodio extends Serie implements Classificavel {
 
     @Override
     public int getClassificacao() {
-        return (int) pegaMedia()/2 ;
+        if (totalVisualizacoes > 100) {
+            return 4;
+        } else {
+            return 2;
+        }
     }
 }
+
