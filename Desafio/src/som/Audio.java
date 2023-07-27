@@ -2,16 +2,16 @@ package som;
 
 public class Audio {
     private String titulo;
-    private String autor;
+    private Autor autor;
     private int duracao;
     private int reproducoes;
     private int curtida;
 
-    public String getAutor() {
+    public Autor getAutor() {
         return autor;
     }
 
-    public void setAutor(String autor) {
+    public void setAutor(Autor autor) {
         this.autor = autor;
     }
 

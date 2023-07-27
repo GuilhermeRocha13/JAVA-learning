@@ -1,15 +1,18 @@
 import som.Audio;
+import som.Autor;
 import som.Musica;
 
 public class Main {
     public static void main(String[] args) {
+
+
+        Autor mac = new Autor();
+        mac.setNomeAutor("Mac DeMarco");
+        mac.setIdade(32);
+        System.out.println(mac.getIdade());
+
         Musica musica = new Musica();
-        musica.setAutor("Mac DeMarco");
-        musica.setTitulo("Freaking out the neighborhood");
-        musica.setDuracao(3);
-        musica.setReproducoes(3700000);
-        musica.setCurtida(500000);
-        musica.exibeFichaTecnica();
+        musica.setAutor(mac);
     }
 
 }

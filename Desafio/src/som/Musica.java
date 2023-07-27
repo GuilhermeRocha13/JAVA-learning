@@ -7,6 +7,8 @@ public class Musica extends Audio{
     private int lancamento;
     private boolean ativo;
 
+
+
     public int getLancamento() {
         return lancamento;
     }
